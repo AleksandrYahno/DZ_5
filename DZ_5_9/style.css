@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 560px;
+    height: 444px;
+    background-color: #83CCC5;
+    overflow: hidden;
+}
+.world {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+}
+.clouds{
+    width: 60%;
+    position: absolute;
+    z-index: 4;
+    left: 40%;
+    top: -1%;   
+}
+.water {
+    width: 108%;
+    position: absolute;
+    z-index: 3;
+    top: 390px;
+}
+.wooden {
+    width: 21%;
+    position: absolute;
+    z-index: 2;
+    top: 296px;
+    left: 46px;   
+}

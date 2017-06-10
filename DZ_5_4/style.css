@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.fullwrap { 
+    width: 484px;
+    height: 528px;
+    border: solid 1px;
+}
+.header {
+    height: 60px;
+    margin: 10px;
+    border: solid 1px;   
+} 
+.wrap {
+    border: solid 1px;
+    margin: 10px;
+}
+.main {
+    width: 254px;
+    height: 290px;
+    border: solid 1px;
+    margin: 10px 8px;
+    float: left;  
+}
+.sidebar {
+    width: 164px;
+    height: 290px;
+    border: solid 1px;
+    margin: 10px 8px;
+    float: right; 
+}
+.footer {
+    height: 100px;
+    margin: 12px 10px;
+    border: solid 1px;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}

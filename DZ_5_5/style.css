@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #D1D1D1;
+    font-family: sans-serif;
+    line-height: 1.4em;  
+}
+.wrapper {
+    height: 1630px;
+    width: 640px;
+    margin: 60px auto;
+    background-color: #FFFFFF;
+}
+header {
+    height: 150px;
+    background-image: url(assets/header_bg.gif);
+    background-size: contain;
+}
+.container {
+    padding: 36px 50px;
+}
+.bold {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.marg1 {
+    margin-top: 11px;
+}
+.marg {
+    margin: 25px 0;
+}
+.marg2 {
+    margin: 35px 0 25px 0;
+}
+.marg3 {
+    margin-bottom: 30px;
+}
+.box-l {
+    float: left;
+    width: 254px;
+    height: 354px;
+}
+.img-l {
+    width: 100%;
+}
+.box-r {
+    float: right;
+    width: 254px;
+    height: 354px;
+}
+.text-l {
+    margin: 11px 0 40px 0;
+}
+.button-l {
+    width: 100%;
+    height: 40px;
+    background-color: #D25C4D;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 96%;
+}
+
+}
+.box-tt {
+    margin: 30px 0 20px 0;
+}
+.box-tt div:last-child {
+    margin-right: 0;
+}
+.box-ll {
+    width: 160px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.box-rr {
+    width: 160px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.box-lc {
+    width: 160px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.text-ll {
+    font-size: 96%;
+    height: 120px;
+    margin-bottom: 0;
+    margin-top: 8px
+}
+.text-ff {
+    margin-bottom: 10px;
+}
+.footer, .footer a{
+    background-color: #D1D1D1;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 70%;
+}
+.footer a {
+    font-size: 100%;
+}
+.italic {
+    font-style: italic;
+    margin-top: 8px;
+    margin-bottom: 60px;
+}
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
